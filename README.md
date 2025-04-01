@@ -1,38 +1,87 @@
-# sv
+# Core User Stories
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## As a Visitor/Client
+1. Landing Page Experience
+   - I want to see a clean, visually appealing homepage
+   - I want to quickly understand what photography services are offered
+   - I want to easily navigate to different sections of the website
+   - I want to view featured photos immediately
 
-## Creating a project
+2. Portfolio Browsing
+   - I want to browse different photography categories
+   - I want to view images in a gallery format
+   - I want to click images to see them in full size
+   - I want to filter photos by category/style
+   - I want the images to load quickly and be responsive
 
-If you're seeing this, you've probably already done this step. Congrats!
+3. Booking Process
+   - I want to see available dates on a calendar
+   - I want to select a convenient time slot
+   - I want to fill out a simple booking form with:
+     * Name
+     * Email
+     * Phone (optional)
+     * Session type
+     * Special requests
+   - I want to receive a confirmation email
+   - I want to see pricing information before booking
 
-```bash
-# create a new project in the current directory
-npx sv create
+4. Contact/Information
+   - I want to find contact information easily
+   - I want to read about the photographer's experience
+   - I want to see FAQs about the photography sessions
+   - I want to read testimonials from previous clients
 
-# create a new project in my-app
-npx sv create my-app
-```
+## As the Photographer (Admin)
+1. Booking Management
+   - I want to view all upcoming bookings
+   - I want to approve/decline booking requests
+   - I want to manage my availability calendar
+   - I want to receive notifications for new bookings
 
-## Developing
+2. Portfolio Management
+   - I want to upload new photos
+   - I want to organize photos into categories
+   - I want to feature specific photos on the homepage
+   - I want to add/edit photo descriptions
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+3. Content Management
+   - I want to update pricing information
+   - I want to edit service descriptions
+   - I want to manage testimonials
+   - I want to update FAQs
 
-```bash
-npm run dev
+## Nice-to-Have Features
+1. Client Features
+   - Social media sharing capabilities
+   - Gallery favorites/wishlist
+   - Session package comparisons
+   - Mobile-responsive design
+   - Dark/Light mode toggle
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+2. Admin Features
+   - Basic analytics dashboard
+   - Automated email responses
+   - Calendar sync with personal calendar
+   - Bulk image upload
+   - Image optimization tools
 
-## Building
+## Priorities
+High Priority (MVP):
+   - Homepage with featured works
+   - Basic portfolio gallery
+   - Calendar booking system
+   - Contact form
+   - Admin booking management
 
-To create a production version of your app:
+Medium Priority:
+   - User account creation
+   - Email notifications
+   - Portfolio categorization
+   - Testimonials section
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Low Priority:
+   - Social media integration
+   - Advanced analytics
+   - Blog/news section
+   - Multiple language support

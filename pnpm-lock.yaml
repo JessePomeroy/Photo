@@ -49,7 +49,7 @@ importers:
         specifier: ^6.6.3
         version: 6.6.3
       '@testing-library/svelte':
-        specifier: ^5.2.4
+        specifier: ^5.2.7
         version: 5.2.7(svelte@5.25.5)(vite@6.2.4(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2))(vitest@3.1.1(@types/node@22.13.14)(jiti@2.4.2)(jsdom@26.0.0)(lightningcss@1.29.2))
       '@types/node':
         specifier: ^22.13.14
@@ -93,6 +93,9 @@ importers:
       svelte-check:
         specifier: ^4.0.0
         version: 4.1.5(picomatch@4.0.2)(svelte@5.25.5)(typescript@5.8.2)
+      svelte-kit:
+        specifier: ^1.2.0
+        version: 1.2.0
       tailwindcss:
         specifier: ^4.0.17
         version: 4.0.17
@@ -106,7 +109,7 @@ importers:
         specifier: ^6.0.0
         version: 6.2.4(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2)
       vitest:
-        specifier: ^3.0.0
+        specifier: ^3.1.1
         version: 3.1.1(@types/node@22.13.14)(jiti@2.4.2)(jsdom@26.0.0)(lightningcss@1.29.2)
 
 packages:
@@ -2550,6 +2553,9 @@ packages:
       svelte:
         optional: true
 
+  svelte-kit@1.2.0:
+    resolution: {integrity: sha512-RRaOHBhpDv4g2v9tcq8iNw055Pt0MlLps6JVA7/40f4KAbtztXSI4T6MZYbHRirO708urfAAMx6Qow+tQfCHug==}
+
   svelte@5.25.5:
     resolution: {integrity: sha512-ULi9rkVWQJyJYZSpy6SIgSTchWadyWG1QYAUx3JAXL2gXrnhdXtoB20KmXGSNdtNyquq3eYd/gkwAkLcL5PGWw==}
     engines: {node: '>=18'}
@@ -4875,6 +4881,8 @@ snapshots:
       postcss-selector-parser: 7.1.0
     optionalDependencies:
       svelte: 5.25.5
+
+  svelte-kit@1.2.0: {}
 
   svelte@5.25.5:
     dependencies:

@@ -46,7 +46,7 @@
             stroke-width="2" 
             d={isMenuOpen 
                 ? "M6 18L18 6M6 6l12 12" // X icon when menu is open
-                : "M4 6h16M4 12h16M4 18h16" // Hamberger icon when menu is closed
+                : "M4 6h16M4 12h16M4 18h16" // Hamburger icon when menu is closed
             }
           />
         </svg>

@@ -1,2 +1,12 @@
-<h1>angel's rest photography</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+    // Import the Header component
+    import Header from '$lib/components/Header.svelte';
+</script>
+
+<!-- The Header component is imported above -->
+<Header />
+
+<!-- The main content of the page -->
+<main>
+    <h1>Hello World!</h1>
+</main>

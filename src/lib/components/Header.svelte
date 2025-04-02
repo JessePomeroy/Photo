@@ -10,9 +10,9 @@
 	];
 </script>
 
-<!-- Main header element - fixed at the top with blur effect -->
-<header class="fixed top-0 z-50 w-full bg-white/80 backdrop-blur-sm">
-	<!-- Nav wrapper with container padding -->
+<!-- Main header element - fixed at the top -->
+<header class="fixed top-0 z-50 w-full">
+	
 	<nav class="">
 		<!-- Flex container for logo and nav -->
 		<div class="flex items-center justify-between">
@@ -35,7 +35,7 @@
 				aria-label="Toggle menu"
 			>
 				<!-- Hamburger icon -->
-				<svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+				<svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 					<path
 						stroke-linecap="round"
 						stroke-linejoin="round"

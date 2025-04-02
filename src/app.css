@@ -3,3 +3,9 @@
 @plugin '@tailwindcss/typography';
 @import 'tailwindcss/preflight';
 @tailwind utilities;
+@import '@skeletonlabs/skeleton';
+@import '@skeletonlabs/skeleton/optional/presets';
+@import '@skeletonlabs/skeleton/themes/reign';
+
+
+@source '../node_modules/@skeletonlabs/skeleton-svelte/dist';

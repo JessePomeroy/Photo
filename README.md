@@ -1,13 +1,16 @@
 # Core User Stories
 
 ## As a Visitor/Client
+
 1. Landing Page Experience
+
    - I want to see a clean, visually appealing homepage
    - I want to quickly understand what photography services are offered
    - I want to easily navigate to different sections of the website
    - I want to view featured photos immediately
 
 2. Portfolio Browsing
+
    - I want to browse different photography categories
    - I want to view images in a gallery format
    - I want to click images to see them in full size
@@ -15,14 +18,15 @@
    - I want the images to load quickly and be responsive
 
 3. Booking Process
+
    - I want to see available dates on a calendar
    - I want to select a convenient time slot
    - I want to fill out a simple booking form with:
-     * Name
-     * Email
-     * Phone (optional)
-     * Session type
-     * Special requests
+     - Name
+     - Email
+     - Phone (optional)
+     - Session type
+     - Special requests
    - I want to receive a confirmation email
    - I want to see pricing information before booking
 
@@ -33,13 +37,16 @@
    - I want to read testimonials from previous clients
 
 ## As the Photographer (Admin)
+
 1. Booking Management
+
    - I want to view all upcoming bookings
    - I want to approve/decline booking requests
    - I want to manage my availability calendar
    - I want to receive notifications for new bookings
 
 2. Portfolio Management
+
    - I want to upload new photos
    - I want to organize photos into categories
    - I want to feature specific photos on the homepage
@@ -52,7 +59,9 @@
    - I want to update FAQs
 
 ## Nice-to-Have Features
+
 1. Client Features
+
    - Social media sharing capabilities
    - Gallery favorites/wishlist
    - Session package comparisons
@@ -67,21 +76,25 @@
    - Image optimization tools
 
 ## Priorities
+
 High Priority (MVP):
-   - Homepage with featured works
-   - Basic portfolio gallery
-   - Calendar booking system
-   - Contact form
-   - Admin booking management
+
+- Homepage with featured works
+- Basic portfolio gallery
+- Calendar booking system
+- Contact form
+- Admin booking management
 
 Medium Priority:
-   - User account creation
-   - Email notifications
-   - Portfolio categorization
-   - Testimonials section
+
+- User account creation
+- Email notifications
+- Portfolio categorization
+- Testimonials section
 
 Low Priority:
-   - Social media integration
-   - Advanced analytics
-   - Blog/news section
-   - Multiple language support
+
+- Social media integration
+- Advanced analytics
+- Blog/news section
+- Multiple language support

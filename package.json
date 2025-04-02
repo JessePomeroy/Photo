@@ -10,6 +10,7 @@
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"flt": "prettier --write . && eslint . && vitest run",
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint .",
 		"test:unit": "vitest",
@@ -55,6 +56,7 @@
 	"dependencies": {
 		"@inlang/paraglide-js": "^2.0.0",
 		"@tailwindcss/postcss": "^4.0.17",
+		"@vercel/postgres": "^0.10.0",
 		"drizzle-orm": "^0.40.0",
 		"postgres": "^3.4.5"
 	},
